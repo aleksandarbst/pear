@@ -1,4 +1,14 @@
+<template>
+  
+</template>
+
 <script>
-  import Index from '~/pages/_lang/index'
-  export default Index
+  export default {
+    layout: 'default',
+    head () {
+      return {
+        title: 'home'
+      }
+    }
+  }
 </script>

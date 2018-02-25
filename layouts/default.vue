@@ -1,5 +1,8 @@
 <template>
     <div :class="['network', online ? 'online' : 'offline']">
+      <div class="uk-container uk-container-large">
+        
+      </div>
         <nuxt/>
     </div>
 </template>

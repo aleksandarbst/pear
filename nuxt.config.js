@@ -8,10 +8,10 @@ module.exports = {
   ** Headers of the page
   */
   router: {
-    middleware: ['i18n']
+    middleware: []
   },
   head: {
-    titleTemplate: '%s - Boilerplate',
+    titleTemplate: '%s - aleksbatista',
     meta: [
       {charset: 'utf-8'},
       {hid: 'viewport', name: 'viewport', content: 'width=device-width, initial-scale=1, minimal-ui'},
@@ -45,10 +45,6 @@ module.exports = {
     background_color: '#FFFFFF',
     lang: 'nl'
   },
-  proxy: [
-    ['/api', {target: 'https://localhost:3001', pathRewrite: {'^/api': '/v1'}}],
-    ['/auth', {target: 'https://localhost:3002', pathRewrite: {'^/auth': '/'}}]
-  ],
   modules: [
     ['@nuxtjs/google-tag-manager', { id: 'GTM-XXXXXXX' }],
     ['@nuxtjs/axios'],
@@ -66,7 +62,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['vue-i18n'],
+    vendor: [],
     analyze: false,
     extractCSS: true,
     /*
@@ -86,7 +82,6 @@ module.exports = {
   plugins: [
     {src: '~/plugins/vuex-router-sync.js', ssr: false},
     {src: '~/plugins/uikit.js', ssr: false},
-    {src: '~/assets/scss/global.scss', lang: 'scss', ssr: false},
-    {src: '~/plugins/i18n.js', injectAs: 'i18n'}
+    {src: '~/assets/scss/global.scss', lang: 'scss', ssr: false}
   ]
 }
