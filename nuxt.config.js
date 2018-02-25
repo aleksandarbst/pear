@@ -21,11 +21,6 @@ module.exports = {
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
-      {
-        rel: 'stylesheet',
-        type: 'text/css',
-        href: 'https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700'
-      }
     ]
   },
   sitemap: {

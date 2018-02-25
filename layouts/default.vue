@@ -1,9 +1,32 @@
 <template>
-    <div :class="['network', online ? 'online' : 'offline']">
-      <div class="uk-container uk-container-large">
-        
+    <div :class="['network', online ? 'online' : 'offline']" v-cloak>
+      <div class="rp-wrapper">
+        <div class="uk-container rp-main">
+          <nav>
+            <ul class="uk-subnav uk-float-right">
+              <li
+                v-for="(page, index) in pages"
+                :key="index"
+                :class="{'uk-active': page.url === $route.path}"
+              >
+                <nuxt-link :to="page.url">
+                  {{ page.name }}
+                </nuxt-link>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-        <nuxt/>
+
+      <nuxt/>
+
+      <div class="rp-footer">
+        <div class="uk-container">
+          <p class="uk-text-muted uk-text-center">
+            &copy; {{ currentYear }} Aleksander Batista &mdash; All Rights Reserved
+          </p>
+        </div>
+      </div>
     </div>
 </template>
 
@@ -11,7 +34,18 @@
   export default {
     data () {
       return {
-        online: true
+        online: true,
+        pages: [
+          {
+            name: 'About',
+            url: '/'
+          },
+          {
+            name: 'Work',
+            url: '/work'
+          }
+        ],
+        currentYear: (new Date()).getFullYear()
       }
     },
     mounted () {
@@ -35,8 +69,43 @@
   }
 </script>
 
-<style scoped>
-    [v-cloak] {
-        display: none;
+<style lang="scss" scoped>
+  [v-cloak] {
+    display: none;
+  }
+  .rp-wrapper {
+    min-height: 100vh
+  }
+  .rp-main {
+    padding-top: 10rem;
+  }
+  .uk-subnav {
+    a {
+      text-transform: none;
+      color: #333;
     }
+
+    li:not(:first-of-type) {
+      margin-left: 40px;
+    }
+
+    li.uk-active a::after {
+      position: absolute;
+      display: block;
+      content: '';
+      background: #FF5845;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      left: 0;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+    }
+  }
+  .rp-footer {
+    background: #0C0B0B;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 </style>
