@@ -20,7 +20,7 @@ module.exports = {
       {hid: 'keywords', name: 'keywords', content: ''}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ]
   },
   sitemap: {

@@ -16,9 +16,10 @@
             </ul>
           </nav>
         </div>
-      </div>
 
-      <nuxt/>
+        <nuxt/>
+
+      </div>
 
       <div class="rp-footer">
         <div class="uk-container">
