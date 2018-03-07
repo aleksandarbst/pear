@@ -2,7 +2,7 @@ const axios = require('axios')
 
 module.exports = {
   generate: {
-    routes: ['/', '/en']
+    routes: ['/']
   },
   /*
   ** Headers of the page
@@ -23,17 +23,9 @@ module.exports = {
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ]
   },
-  sitemap: {
-    path: '/sitemap.xml',
-    generate: true,
-    routes () {
-      return axios.get('/api/sitemap')
-        .then(res => res.data.map(user => '/items/' + user.username))
-    }
-  },
   manifest: {
-    name: 'Boilerplate',
-    short_name: 'PSM',
+    name: 'aleksbatista',
+    short_name: 'AB',
     display: 'standalone',
     start_url: 'https://localhost:3000',
     theme_color: '#317EFB',
@@ -41,10 +33,8 @@ module.exports = {
     lang: 'nl'
   },
   modules: [
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-XXXXXXX' }],
     ['@nuxtjs/axios'],
     ['@nuxtjs/proxy'],
-    ['@nuxtjs/sitemap'],
     ['@nuxtjs/pwa']
   ],
   /*
@@ -64,7 +54,7 @@ module.exports = {
     ** Run ESLint on save
     */
     extend (config, ctx) {
-      if (ctx.dev && ctx.isClient) {
+      if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,

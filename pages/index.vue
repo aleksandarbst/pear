@@ -1,7 +1,10 @@
 <template>
   <div class="uk-container">
     <div class="flex">
-      <h1>Aleksander Batista</h1>
+      <div class="title-wrapper">
+        <h1>Aleksander Batista</h1>
+        <div id="dot" :style="dotStyle"></div>
+      </div>
       <div class="spacer"></div>
     </div>
     <p>
@@ -15,9 +18,55 @@
 <script>
   export default {
     layout: 'default',
+    data () {
+      return {
+        mousePos: {
+          x: 0,
+          y: 0
+        },
+        mouseX: 0,
+        mouseY: 0
+      }
+    },
     head () {
       return {
         title: 'home'
+      }
+    },
+    mounted () {
+      if (process.browser) {
+        document.onmousemove = (event) => {
+          this.mousePos.x = event.clientX
+          this.mousePos.y = event.clientY
+        }
+      }
+    },
+    computed: {
+      dotStyle () {
+        if (process.browser) {
+          let inner = {
+            x: window.innerHeight,
+            y: window.innerWidth
+          }
+          let center = {
+            x: Math.floor(inner.x / 2),
+            y: Math.floor(inner.y / 2)
+          }
+
+          let posToCenter = { // eslint-disable-line
+            x: this.mousePos.x - center.x,
+            y: this.mousePos.y - center.y
+          }
+
+          return {
+            '': ''
+          }
+        }
+      }
+    },
+    beforeDestroy () {
+      if (process.browser) {
+        document.onmousemove = null
       }
     }
   }
@@ -35,28 +84,28 @@
     flex-basis: 1000px;
     content: ''
   }
-  h1 {
+  .title-wrapper {
     margin-top: 5rem;
     margin-bottom: 3rem;
+    position: relative;
+  }
+  h1 {
     line-height: 0.8;
     font-size: 8rem;
     font-weight: 900;
     text-transform: uppercase;
-    position: relative;
-
-    &::after {
-      position: absolute;
-      display: block;
-      content: '';
-      background: #FF5845;
-      border-radius: 50%;
-      width: 132px;
-      height: 132px;
-      right: 0;
-      top: 0;
-      z-index: -1;
-      transform: translate(40%, -40%)
-    }
+  }
+  #dot {
+    position: absolute;
+    display: block;
+    background: #FF5845;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transform: translate(40%, -40%)
   }
   p {
     font-weight: 200;

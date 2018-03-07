@@ -1,13 +1,16 @@
 <template>
     <div :class="['network', online ? 'online' : 'offline']" v-cloak>
-      <div class="rp-wrapper">
-        <div class="uk-container rp-main">
+      <div class="wrapper">
+        <div class="uk-container main">
           <nav>
+            <span class="brand" v-if="$route.path !== '/'">
+              Aleks Batista
+            </span>
             <ul class="uk-subnav uk-float-right">
               <li
                 v-for="(page, index) in pages"
                 :key="index"
-                :class="{'uk-active': page.url === $route.path}"
+                :class="{'uk-active': $route.fullPath === page.url}"
               >
                 <nuxt-link :to="page.url">
                   {{ page.name }}
@@ -21,7 +24,7 @@
 
       </div>
 
-      <div class="rp-footer">
+      <div class="footer">
         <div class="uk-container">
           <p class="uk-text-muted uk-text-center">
             &copy; {{ currentYear }} Aleksander Batista &mdash; All Rights Reserved
@@ -74,13 +77,38 @@
   [v-cloak] {
     display: none;
   }
-  .rp-wrapper {
+  .wrapper {
     min-height: 100vh
   }
-  .rp-main {
+  .main {
     padding-top: 10rem;
   }
+  .brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #333;
+    font-size: 1.1rem;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      display: block;
+      content: '';
+      background: #FF5845;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      left: 0;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+      z-index: -1;
+      transform: translateX(-30%);
+    }
+  }
   .uk-subnav {
+    margin: 0;
+
     a {
       text-transform: none;
       color: #333;
@@ -104,7 +132,7 @@
       margin: auto;
     }
   }
-  .rp-footer {
+  .footer {
     background: #0C0B0B;
     padding-top: 4rem;
     padding-bottom: 4rem;

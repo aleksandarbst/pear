@@ -1,8 +1,8 @@
 {
-  "name": "frontend.boilerplate",
+  "name": "aleks_batista_portfolio",
   "version": "1.0.0",
-  "description": "Nuxt Boilerplate PWA",
-  "author": "Joey van Wijnbergen <joey@pietersmit.nl>",
+  "description": "Portfolio of Aleks Batista",
+  "author": "Robbin Ploeger",
   "private": true,
   "scripts": {
     "dev": "nuxt",
