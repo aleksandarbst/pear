@@ -1,7 +1,7 @@
 <template>
   <div class="uk-container uk-margin-large-top">
     <h2 class="uk-heading-primary">Work</h2>
-    <p class="uk-text-large">Completed pieces for show</p>
+    <p class="uk-text-lead">Completed pieces for show</p>
     <p></p>
     <div class="uk-grid uk-grid-match work-pieces">
       <div class="uk-width-1-3">
@@ -10,9 +10,9 @@
         </nuxt-link>
       </div>
       <div class="uk-width-2-3">
-        <nuxt-link :to="'/work'">
+        <a href="https://medium.com/@aleksbatista/standing-out-a98b3423ce05">
           <img src="~/assets/images/proj2.png">
-        </nuxt-link>
+        </a>
       </div>
     </div>
     <div class="uk-grid uk-grid-match work-pieces uk-margin-large-bottom">
