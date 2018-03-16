@@ -1,7 +1,7 @@
 <template>
   <div class="uk-container uk-margin-large-top">
     <h2 class="uk-heading-primary">Work</h2>
-    <p class="uk-text-lead">Completed pieces for show</p>
+    <p class="uk-text-lead">Projects and Ideas</p>
     <p></p>
     <div class="uk-grid uk-grid-match work-pieces">
       <div class="uk-width-1-3">
@@ -38,6 +38,6 @@
 <style lang="scss" scoped>
   .work-pieces img {
     height: 100%;
-    border-radius: 5px;
+    border-radius: 9px;
   }
 </style>
