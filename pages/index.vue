@@ -9,8 +9,7 @@
     </div>
     <p>
       Upcoming graphic design student with looking for entrance to the creative world. <br>
-      If not buried in dribbble shots, I'll likely be found working with twitch.tv broadcasters, or tinkering <br>
-      with concepts and mockups.
+      I occasionally post little quote cards on instagram @uhsoory
     </p>
   </div>
 </template>
