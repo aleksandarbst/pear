@@ -4,7 +4,7 @@
         <div class="uk-container main">
           <nav>
             <span class="brand" v-if="$route.path !== '/'">
-              Aleks Batista
+              aleksbatista.com
             </span>
             <ul class="uk-subnav uk-float-right">
               <li
@@ -84,9 +84,9 @@
     padding-top: 10rem;
   }
   .brand {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 900;
-    color: #333;
+    color: #131315;
     font-size: 1.1rem;
     position: relative;
 
@@ -94,10 +94,10 @@
       position: absolute;
       display: block;
       content: '';
-      background: #FF5845;
+      background: #ff5845;
       border-radius: 50%;
-      width: 40px;
-      height: 40px;
+      width: 32px;
+      height: 32px;
       left: 0;
       bottom: 0;
       top: 0;
@@ -111,7 +111,7 @@
 
     a {
       text-transform: none;
-      color: #333;
+      color: #131315;
     }
 
     li:not(:first-of-type) {
