@@ -8,7 +8,7 @@
       <div class="spacer"></div>
     </div>
     <p>
-      Upcoming graphic design student with a passion for the creative world. <br>
+      Upcoming graphic design student with looking for entrance to the creative world. <br>
       If not buried in dribbble shots, I'll likely be found working with twitch.tv broadcasters, or tinkering <br>
       with concepts and mockups.
     </p>
@@ -85,20 +85,20 @@
     content: ''
   }
   .title-wrapper {
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-bottom: 3rem;
     position: relative;
   }
   h1 {
     line-height: 0.8;
-    font-size: 8rem;
+    font-size: 9.5rem;
     font-weight: 900;
     text-transform: uppercase;
   }
   #dot {
     position: absolute;
     display: block;
-    background: #FF5845;
+    background: #ff5845;
     border-radius: 50%;
     width: 125px;
     height: 125px;
