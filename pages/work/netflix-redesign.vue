@@ -21,7 +21,7 @@
         <span>Large Preview</span>
       </div>
       <div>
-        <img src="~/assets/images/proj1_3.png">
+        <img src="~/assets/images/proj1_3.jpg">
         <span>Original look of the app</span>
       </div>
     </div>
