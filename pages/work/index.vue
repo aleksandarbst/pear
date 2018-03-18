@@ -48,8 +48,10 @@
           quickly grew into an entire branding and presentation project.
         </p>
       </div>
-      <div>
-        <img src="https://via.placeholder.com/600" alt="">
+      <div uk-lightbox="animation: slide">
+        <a href="https://via.placeholder.com/600">
+          <img src="https://via.placeholder.com/600" alt="">
+        </a>
       </div>
     </div>
   </div>
