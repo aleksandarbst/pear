@@ -1,6 +1,16 @@
 <template>
   <div class="uk-container uk-margin-large-top">
-    <h2 class="uk-heading-primary">Work</h2>
+    <div class="uk-grid uk-child-width-1-2">
+      <h2 class="uk-heading-primary">Work</h2>
+      <div>
+        <div class="social-menu uk-float-right">
+          <a target="_blank" rel="noopener noreffer" href="https://twitter.com/uhsoory"><i class="fab fa-twitter-square"></i></a>
+          <a target="_blank" rel="noopener noreffer" href="https://instagram.com/uhsoory/"><i class="fab fa-instagram"></i></a>
+          <a target="_blank" rel="noopener noreffer" href="https://medium.com/@aleksbatista"><i class="fab fa-medium-m"></i></a>
+          <a target="_blank" rel="noopener noreffer" href="mailto:aleksbatista@icloud.com"><i class="far fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
     <p class="uk-text-lead">Completed projects, articles and case studies</p>
     <p></p>
     <div class="uk-grid uk-grid-match work-pieces">
@@ -84,6 +94,14 @@
 
     &:hover {
       filter: grayscale(0%);
+    }
+  }
+  .social-menu {
+    a {
+      margin-left: .6rem;
+      font-size: 1.8rem;
+      color: #333;
+      text-decoration: none;
     }
   }
 </style>

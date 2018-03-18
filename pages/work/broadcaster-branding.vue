@@ -5,7 +5,7 @@
     <p class="uk-margin-large-bottom">Creating a twitch.tv channel layout and design</p>
 
     <div class="uk-margin-large-bottom">
-      <a class="button-medium" href="https://medium.com/@aleksbatista/exploring-broadcaster-branding-4d3074e532bd">
+      <a target="_blank" rel="noopener noreffer" class="button-medium" href="https://medium.com/@aleksbatista/exploring-broadcaster-branding-4d3074e532bd">
           <i class="fab fa-medium"></i> &nbsp;
           Read article on medium.com  →
       </a>
