@@ -84,7 +84,7 @@
   }
   .main {
     padding-top: 12rem;
-    margin: 0 100px;
+    margin: 0 250px;
   }
   .brand {
     text-transform: lowercase;
