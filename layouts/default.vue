@@ -1,7 +1,7 @@
 <template>
     <div :class="['network', online ? 'online' : 'offline']" v-cloak>
       <div class="wrapper">
-        <div class="uk-container main">
+        <div class="uk-container uk-container-large main">
           <nav>
             <span class="brand" v-if="$route.path !== '/'">
               <nuxt-link :to="'/'">
@@ -83,7 +83,8 @@
     min-height: 100vh
   }
   .main {
-    padding-top: 10rem;
+    padding-top: 12rem;
+    margin: 0 100px;
   }
   .brand {
     text-transform: lowercase;
