@@ -47,6 +47,11 @@
           What started as a quick concept of a simple graphic for t-shirts and hoodies,
           quickly grew into an entire branding and presentation project.
         </p>
+        <p class="uk-text-right">
+          This is a fully rendered magazine cover for a 2018 edition lookbook. The bright,
+          fiery tones are meant to provoke a powerful and striking figure. Image and model
+          courtesy of unsplash.com
+        </p>
       </div>
       <div uk-lightbox="animation: slide">
         <a href="/images/proj5.png">
