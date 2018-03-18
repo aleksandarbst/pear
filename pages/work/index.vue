@@ -55,7 +55,7 @@
       </div>
       <div uk-lightbox="animation: slide">
         <a href="/images/proj5.png">
-          <img src="/images/proj5.png" alt="">
+          <img src="/images/proj5_1.png" alt="">
         </a>
       </div>
     </div>
