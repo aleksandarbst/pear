@@ -89,6 +89,7 @@
     color: #131315;
     font-size: 1.1rem;
     position: relative;
+    z-index: 10;
 
     &::after {
       position: absolute;

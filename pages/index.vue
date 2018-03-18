@@ -81,7 +81,7 @@
   .spacer {
     flex: 1;
     flex-basis: 1000px;
-    content: ''
+    content: '';
   }
   .title-wrapper {
     margin-top: 10rem;
@@ -94,6 +94,8 @@
     font-weight: 900;
     text-transform: uppercase;
     color: #131315;
+    position: relative;
+    z-index: 10;
   }
   #dot {
     position: absolute;
@@ -104,8 +106,8 @@
     height: 125px;
     right: 0;
     top: 0;
-    z-index: -1;
-    transform: translate(40%, -40%)
+    z-index: 5;
+    transform: translate(40%, -40%);
   }
   p {
     font-weight: 200;
