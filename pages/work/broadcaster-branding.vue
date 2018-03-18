@@ -11,24 +11,22 @@
 
     <div class="uk-grid uk-child-width-1-3 uk-margin-large-bottom">
       <div>
-        <img src="https://via.placeholder.com/400">
-        <span>Comment</span>
+        <img src="/images/proj3_1.png">
+        <span>On-Screen Notifications</span>
       </div>
       <div>
-        <img src="https://via.placeholder.com/400">
-        <span>Comment</span>
+        <img src="/images/proj3_2.png">
+        <span>Information Banners</span>
       </div>
       <div>
-        <img src="https://via.placeholder.com/400">
-        <span>Comment</span>
+        <img src="/images/proj3_2.gif">
+        <span>Countdown Screen</span>
       </div>
     </div>
 
-    <span class="uk-text-uppercase uk-text-bold">Layout & color scheme</span>
+    <span class="uk-text-uppercase uk-text-bold">ABOUT</span>
     <p class="uk-width-1-2 uk-margin-large-bottom">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia sapiente expedita deserunt
-      harum, omnis excepturi quam doloribus facere ex illo aliquid vel sint repellendus sed est,
-      praesentium et exercitationem nobis!
+      This is a content pack with simplistic branding for a twitch.tv streamer. I built this with purpose of showing that anyone can get a hold of a minimalistic and memorable identity suite for their broadcasts.
     </p>
 
   </div>

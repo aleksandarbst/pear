@@ -8,8 +8,8 @@
       <div class="spacer"></div>
     </div>
     <p>
-      Upcoming graphic design student with looking for entrance to the creative world. <br>
-      I occasionally post little quote cards on instagram @uhsoory
+      Upcoming graphic design student looking for an entrance to the creative world. <br>
+      I occasionally post little quote cards and album art on instagram @uhsoory
     </p>
   </div>
 </template>

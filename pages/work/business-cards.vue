@@ -16,16 +16,12 @@
 
     <div class="uk-grid uk-child-width-1-3 uk-margin-large-bottom">
       <div>
-        <img src="https://via.placeholder.com/400">
-        <span>Comment</span>
+        <img src="/images/proj4_1.png">
+        <span>Mockup</span>
       </div>
       <div>
-        <img src="https://via.placeholder.com/400">
-        <span>Comment</span>
-      </div>
-      <div>
-        <img src="https://via.placeholder.com/400">
-        <span>Comment</span>
+        <img src="/images/proj4_2.png">
+        <span>Preview</span>
       </div>
     </div>
 

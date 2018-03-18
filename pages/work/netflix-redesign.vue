@@ -38,7 +38,7 @@
       UI style patterns, and there is a definitely a note of inspiration in the way items are diplayed.
       Though, I didn't use the stereotipically easy to use San Francisco font (rest in peace Helvetica),
       and decided to go with Inter, a great all-rounder font that suits the needs of this project.
-      This redesign was really built in mind with the larger size of the iPhone X and it's nearly
+      This redesign was really built to adapt with the larger size of the iPhone X and it's nearly
       non-existant bezels.
     </p>
 
