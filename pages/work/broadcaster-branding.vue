@@ -10,17 +10,23 @@
       Extra emphasis on simplicity and a dark, moody vibe for those late evening sessions.
     </p>
 
-    <div class="uk-grid uk-child-width-1-3 uk-margin-large-bottom">
+    <div class="uk-grid uk-child-width-1-3 uk-margin-large-bottom" uk-lightbox="animation: slide">
       <div>
-        <img src="/images/proj3_1.png">
+        <a href="/images/proj3_1.png">
+          <img src="/images/proj3_1.png">
+        </a>
         <span>On-Screen Notifications</span>
       </div>
       <div>
-        <img src="/images/proj3_2.png">
+        <a href="/images/proj3_2.png">
+          <img src="/images/proj3_2.png">
+        </a>
         <span>Information Banners</span>
       </div>
       <div>
-        <img src="/images/proj3_3.gif">
+        <a href="/images/proj3_3.gif">
+          <img src="/images/proj3_3.gif">
+        </a>
         <span>Transition Screen</span>
       </div>
     </div>

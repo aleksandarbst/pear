@@ -14,13 +14,17 @@
       additants. With this in mind, we settled on the name 'ARMOR'.
     </p>
 
-    <div class="uk-grid uk-child-width-1-3 uk-margin-large-bottom">
+    <div class="uk-grid uk-child-width-1-2 uk-margin-large-bottom" uk-lightbox="animation: slide">
       <div>
-        <img src="/images/proj4_1.png">
+        <a href="/images/proj4_1.png">
+          <img src="/images/proj4_1.png">
+        </a>
         <span>Mockup</span>
       </div>
       <div>
-        <img src="/images/proj4_2.png">
+        <a href="/images/proj4_2.png">
+          <img src="/images/proj4_2.png">
+        </a>
         <span>Preview</span>
       </div>
     </div>
