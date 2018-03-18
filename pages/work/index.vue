@@ -49,8 +49,8 @@
         </p>
       </div>
       <div uk-lightbox="animation: slide">
-        <a href="https://via.placeholder.com/600">
-          <img src="https://via.placeholder.com/600" alt="">
+        <a href="/images/proj5.png">
+          <img src="/images/proj5.png" alt="">
         </a>
       </div>
     </div>
