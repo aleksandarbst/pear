@@ -108,5 +108,7 @@
   }
   p {
     font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 1.6;
   }
 </style>
