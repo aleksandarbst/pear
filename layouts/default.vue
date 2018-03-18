@@ -4,7 +4,9 @@
         <div class="uk-container main">
           <nav>
             <span class="brand" v-if="$route.path !== '/'">
-              aleksbatista.com
+              <nuxt-link :to="'/'">
+                aleksbatista.com
+              </nuxt-link>
             </span>
             <ul class="uk-subnav uk-float-right">
               <li
@@ -105,6 +107,14 @@
       margin: auto;
       z-index: -1;
       transform: translateX(-30%);
+    }
+
+    a {
+      color: #131315;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
   .uk-subnav {

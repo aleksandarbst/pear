@@ -39,5 +39,12 @@
   .work-pieces img {
     height: 100%;
     border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    transition: filter 200ms;
+    filter: grayscale(100%);
+
+    &:hover {
+      filter: grayscale(0%);
+    }
   }
 </style>
