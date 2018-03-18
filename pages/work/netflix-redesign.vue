@@ -11,17 +11,23 @@
       small visual update, which I do suppose is a step in the right direction. 
     </p>
 
-    <div class="uk-grid uk-child-width-1-3 uk-margin-large-bottom">
+    <div class="uk-grid uk-child-width-1-3 uk-margin-large-bottom" uk-lightbox="animation: slide">
       <div>
-        <img src="~/assets/images/proj1_1.png">
+        <a href="/images/proj1_1.png">
+          <img src="/images/proj1_1.png">
+        </a>
         <span>Render</span>
       </div>
       <div>
-        <img src="~/assets/images/proj1_2.png">
+        <a href="/images/proj1_2.png">
+          <img src="/images/proj1_2.png">
+        </a>
         <span>Large Preview</span>
       </div>
       <div>
-        <img src="~/assets/images/proj1_3.jpg">
+        <a href="/images/proj1_3.jpg">
+          <img src="/images/proj1_3.jpg">
+        </a>
         <span>Original look of the app</span>
       </div>
     </div>
