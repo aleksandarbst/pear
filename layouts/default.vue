@@ -84,7 +84,6 @@
   }
   .main {
     padding-top: 12rem;
-    // margin: 0 100px;
 
     @media (min-width:1541px) {
       margin: 0 100px;
