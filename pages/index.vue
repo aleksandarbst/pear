@@ -93,6 +93,7 @@
     font-size: 9.5rem;
     font-weight: 900;
     text-transform: uppercase;
+    color: #131315;
   }
   #dot {
     position: absolute;
