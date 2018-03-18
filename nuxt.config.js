@@ -19,6 +19,9 @@ module.exports = {
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+    ],
+    script: [
+      {src: 'https://use.fontawesome.com/releases/v5.0.2/js/all.js'}
     ]
   },
   manifest: {
