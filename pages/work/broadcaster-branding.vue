@@ -20,8 +20,8 @@
         <span>Information Banners</span>
       </div>
       <div>
-        <img src="/images/proj3_2.gif">
-        <span>Countdown Screen</span>
+        <img src="/images/proj3_3.gif">
+        <span>Transition Screen</span>
       </div>
     </div>
 
