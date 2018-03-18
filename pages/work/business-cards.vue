@@ -1,8 +1,8 @@
 <template>
   <div class="uk-container uk-margin-large-top">
 
-    <h2 class="uk-heading-primary">Business cards</h2>
-    <p class="uk-text-lead uk-margin-large-bottom">Assigned project</p>
+    <h1>Business cards</h1>
+    <p class="uk-margin-large-bottom">Assigned project</p>
 
     <span class="uk-text-uppercase uk-text-bold">Mockups</span>
     <p class="uk-width-1-2 uk-margin-large-bottom">

@@ -1,8 +1,8 @@
 <template>
   <div class="uk-container uk-margin-large-top">
 
-    <h2 class="uk-heading-primary">Netflix Redesign</h2>
-    <p class="uk-text-lead uk-margin-large-bottom">Homescreen UI refresh</p>
+    <h1>Netflix Redesign</h1>
+    <p class="uk-margin-large-bottom">Homescreen UI refresh</p>
 
     <span class="uk-text-uppercase uk-text-bold">Mockups</span>
     <p class="uk-width-1-2 uk-margin-large-bottom">

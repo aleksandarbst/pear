@@ -1,7 +1,8 @@
 <template>
   <div class="uk-container uk-margin-large-top">
-    <h2 class="uk-heading-primary">Broadcaster Branding</h2>
-    <p class="uk-text-lead uk-margin-large-bottom">Creating a twitch.tv channel layout and design</p>
+
+    <h1>Broadcaster Branding</h1>
+    <p class="uk-margin-large-bottom">Creating a twitch.tv channel layout and design</p>
 
     <span class="uk-text-uppercase uk-text-bold">Key features</span>
     <p class="uk-width-1-2 uk-margin-large-bottom">
