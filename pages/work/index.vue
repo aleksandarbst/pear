@@ -7,7 +7,7 @@
           <a target="_blank" rel="noopener noreffer" href="https://twitter.com/uhsoory"><i class="fab fa-twitter-square"></i></a>
           <a target="_blank" rel="noopener noreffer" href="https://instagram.com/uhsoory/"><i class="fab fa-instagram"></i></a>
           <a target="_blank" rel="noopener noreffer" href="https://medium.com/@aleksbatista"><i class="fab fa-medium-m"></i></a>
-          <a target="_blank" rel="noopener noreffer" href="mailto:aleksbatista@icloud.com"><i class="far fa-envelope"></i></a>
+          <a href="mailto:aleksbatista@icloud.com"><i class="far fa-envelope"></i></a>
         </div>
       </div>
     </div>
