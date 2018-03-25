@@ -7,7 +7,7 @@
       </div>
       <div class="spacer"></div>
     </div>
-    <p>
+    <p style="margin-bottom: 100px;">
       Upcoming graphic design student looking for an entrance to the creative world. <br>
       I occasionally post little quote cards and album art on instagram @uhsoory
     </p>
