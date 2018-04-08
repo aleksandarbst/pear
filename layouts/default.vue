@@ -43,7 +43,7 @@
         meta: [
           { property: 'og:title', content: 'Title' },
           { property: 'og:description', content: 'Description' },
-          { property: 'og:site-name', content: 'Aleks Batista' },
+          { property: 'og:site_name', content: 'Aleks Batista' },
           { property: 'og:image', content: 'https://discordapp.com/assets/ba74954dde74ff40a32ff58069e78c36.png' }
         ]
       }
