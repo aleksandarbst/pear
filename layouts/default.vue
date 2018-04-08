@@ -101,22 +101,6 @@
     position: relative;
     z-index: 10;
 
-    &::after {
-      position: absolute;
-      display: block;
-      content: '';
-      background: #ff5845;
-      border-radius: 50%;
-      width: 32px;
-      height: 32px;
-      left: 0;
-      bottom: 0;
-      top: 0;
-      margin: auto;
-      z-index: -1;
-      transform: translateX(-30%);
-    }
-
     a {
       color: #131315;
 
