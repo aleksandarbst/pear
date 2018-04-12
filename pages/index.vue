@@ -1,15 +1,8 @@
 <template>
   <div class="uk-container">
-    <div class="flex">
-      <div class="title-wrapper">
-        <h1>Aleksander Batista</h1>
-        <div id="dot" :style="dotStyle"></div>
-      </div>
-      <div class="spacer"></div>
-    </div>
+    <h1>Hi, my name is Aleksander</h1>
     <p style="margin-bottom: 100px;">
-      Upcoming graphic design student looking for an entrance to the creative world. <br>
-      I occasionally post little quote cards and album art on instagram @uhsoory
+      — And here is a bunch of text i dont really want to type :o
     </p>
   </div>
 </template>
@@ -17,55 +10,9 @@
 <script>
   export default {
     layout: 'default',
-    data () {
-      return {
-        mousePos: {
-          x: 0,
-          y: 0
-        },
-        mouseX: 0,
-        mouseY: 0
-      }
-    },
     head () {
       return {
-        title: 'home'
-      }
-    },
-    mounted () {
-      if (process.browser) {
-        document.onmousemove = (event) => {
-          this.mousePos.x = event.clientX
-          this.mousePos.y = event.clientY
-        }
-      }
-    },
-    computed: {
-      dotStyle () {
-        if (process.browser) {
-          let inner = {
-            x: window.innerHeight,
-            y: window.innerWidth
-          }
-          let center = {
-            x: Math.floor(inner.x / 2),
-            y: Math.floor(inner.y / 2)
-          }
-
-          let posToCenter = { // eslint-disable-line
-            x: this.mousePos.x - center.x,
-            y: this.mousePos.y - center.y
-          }
-
-          return {
-            '': ''
-          }
-        }
-      }
-    },
-    beforeDestroy () {
-      if (process.browser) {
-        document.onmousemove = null
+        title: 'twitch'
       }
     }
   }
@@ -75,27 +22,13 @@
   .uk-container {
     position: relative;
   }
-  .flex {
-    display: flex;
-  }
-  .spacer {
-    flex: 1;
-    flex-basis: 1000px;
-    content: '';
-  }
-  .title-wrapper {
+  h1 {
     margin-top: 10rem;
     margin-bottom: 3rem;
-    position: relative;
-  }
-  h1 {
     line-height: 0.8;
-    font-size: 9.5rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: #131315;
-    position: relative;
-    z-index: 10;
+    font-size: 3rem;
+    text-align: center;
+    color: #ffffff;
   }
   #dot {
     position: absolute;

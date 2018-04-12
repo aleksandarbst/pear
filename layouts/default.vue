@@ -1,39 +1,39 @@
 <template>
-    <div :class="['network', online ? 'online' : 'offline']" v-cloak>
-      <div class="wrapper">
-        <div class="uk-container uk-container-large main">
-          <nav>
-            <span class="brand" v-if="$route.path !== '/'">
-              <nuxt-link :to="'/'">
-                aleksbatista.com
+  <div :class="['network', online ? 'online' : 'offline']" v-cloak>
+    <div class="wrapper">
+      <div class="uk-container uk-container-large main">
+        <nav>
+          <span class="brand">
+            <nuxt-link :to="'/'">
+              twitch.aleksbatista
+            </nuxt-link>
+          </span>
+          <ul class="uk-subnav uk-float-right">
+            <li
+              v-for="(page, index) in pages"
+              :key="index"
+              :class="{'uk-active': $route.fullPath === page.url}"
+            >
+              <nuxt-link :to="page.url">
+                {{ page.name }}
               </nuxt-link>
-            </span>
-            <ul class="uk-subnav uk-float-right">
-              <li
-                v-for="(page, index) in pages"
-                :key="index"
-                :class="{'uk-active': $route.fullPath === page.url}"
-              >
-                <nuxt-link :to="page.url">
-                  {{ page.name }}
-                </nuxt-link>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-        <nuxt/>
-
+            </li>
+          </ul>
+        </nav>
       </div>
 
-      <div class="footer">
-        <div class="uk-container">
-          <p class="uk-text-muted uk-text-center">
-            &copy; {{ currentYear }} Aleksander Batista &mdash; All Rights Reserved
-          </p>
-        </div>
+      <nuxt/>
+
+    </div>
+
+    <div class="footer">
+      <div class="uk-container">
+        <p class="uk-text-muted uk-text-center">
+          &copy; {{ currentYear }} Aleksander Batista &mdash; All Rights Reserved
+        </p>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -95,17 +95,31 @@
   }
   .brand {
     text-transform: lowercase;
-    font-weight: 900;
-    color: #131315;
+    font-weight: 700;
+    color: #ffffff;
     font-size: 1.1rem;
+    
     position: relative;
-    z-index: 10;
 
     a {
-      color: #131315;
+      color: #ffffff;
+
+      &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: -4px;
+        height: 4px;
+        width: 100%;
+        background: #373059;
+      }
 
       &:hover {
         text-decoration: none;
+
+        &::after {
+          background: #ffffff;
+        }
       }
     }
   }
