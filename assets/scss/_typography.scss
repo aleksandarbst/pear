@@ -16,5 +16,26 @@ body {
 }
 
 .link-underline {
+  color: #ffffff;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    height: 10px;
+    width: 100%;
+    background: #373059;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: #ffffff;
+
+    &::after {
+      background: #ffffff;
+    }
+  }
 
 }

@@ -98,7 +98,7 @@
     font-weight: 700;
     color: #ffffff;
     font-size: 1.1rem;
-    
+
     position: relative;
 
     a {
@@ -128,7 +128,7 @@
 
     a {
       text-transform: none;
-      color: #131315;
+      color: #ffffff;
     }
 
     li:not(:first-of-type) {
@@ -139,7 +139,7 @@
       position: absolute;
       display: block;
       content: '';
-      background: #FF5845;
+      background: #373059;
       border-radius: 50%;
       width: 8px;
       height: 8px;
