@@ -10,14 +10,14 @@
           <a target="_blank" rel="noopener noreffer" href="https://medium.com/@aleksbatista"><i class="fab fa-medium-m"></i></a>
         </div>
         <p class="sub-main" style="margin-bottom: 100px;">
-          — and I've been a part of the twitch community for years. In this time, I have grown quite familiar to the environment of streamers and viewers. Through my designs, I aim to create a closer connection between said viewers and the channel broadcasters. I believe that each is unique, and deserves to show off exactly how special and great it is. My goal is to create and curate viable branding for any broadcaster, no matter big or small.
+          — and over the past years I have grown quite familiar with the twich community, and the environment of streamers and viewers. Through my designs, I aim to create a closer connection between said viewers and the channel broadcasters. I believe that each channel is unique, and deserves to show off exactly how special and great it is. My goal is to create and curate viable branding for any broadcaster, no matter big or small.
         </p>
       </div>
     </div>
 
     <h2 class="uk-heading-primary">Broadcasting Packages</h2>
     <p class="sub-heading uk-margin-large-bottom">
-      List of streamers and twitch-related projects i've worked with
+      Streamers and Projects
     </p>
 
     <div class="uk-grid uk-grid-match work-pieces">
@@ -46,7 +46,7 @@
     </div>
 
     <div class="contact">
-      Get in touch with me to talk prices
+      In need of a designer? Get in touch. 📧
       <a class="link-underline" href="mailto:aleksbatista@icloud.com">
         aleksbatista@icloud.com
       </a>
@@ -79,27 +79,28 @@
     color: #ffffff;
   }
   h2 {
-    color: #ddd;
+    color: #dad8de;
   }
   .sub-main {
-    color: #999;
+    color: #fff;
     font-weight: 200;
     font-size: 1.5rem;
     line-height: 1.6;
+    opacity: 0.5;
   }
   .sub-heading {
-    color: #817490;
-    font-size: 1.2rem;
+    color: #898395;
+    font-size: 1.3rem;
   }
   .social-menu {
     a {
       margin-left: .6rem;
       font-size: 1.8rem;
-      color: #555;
+      color: #6e6779;
       text-decoration: none;
 
       &:hover {
-        color: #333;
+        color: #898395;
       }
     }
   }
@@ -118,7 +119,7 @@
   }
   .contact {
     margin-top: 300px;
-    margin-bottom: 40px;
+    margin-bottom: 250px;
     font-size: 3rem;
     text-align: center;
   }
