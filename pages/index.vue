@@ -10,7 +10,7 @@
           <a target="_blank" rel="noopener noreffer" href="https://medium.com/@aleksbatista"><i class="fab fa-medium-m"></i></a>
         </div>
         <p class="sub-main" style="margin-bottom: 100px;">
-          — and here is a bunch of text i dont really want to type :o
+          — and I've been a part of the twitch community for years. In this time, I have grown quite familiar to the environment of streamers and viewers. Through my designs, I aim to create a closer connection between said viewers and the channel broadcasters. I believe that each is unique, and deserves to show off exactly how special and great it is. My goal is to create and curate viable branding for any broadcaster, no matter big or small.
         </p>
       </div>
     </div>
