@@ -9,7 +9,7 @@
           <a target="_blank" rel="noopener noreffer" href="https://dribbble.com/aleksbatista"><i class="fab fa-dribbble"></i></a>
           <a target="_blank" rel="noopener noreffer" href="https://twitter.com/baffledbatista"><i class="fab fa-twitter"></i></a>
           <a target="_blank" rel="noopener noreffer" href="https://medium.com/@aleksbatista"><i class="fab fa-medium-m"></i></a>
-          
+
         </div>
         <p class="sub-main" style="margin-bottom: 100px;">
           — and over the past years I have grown quite familiar with the twitch community, and the environment of streamers and viewers. Through my designs, I aim to create a closer connection between said viewers and the channel broadcasters. I believe that each channel is unique, and deserves to show off exactly how special and great it is. My goal is to create and curate viable branding for any broadcaster, no matter big or small.
@@ -87,7 +87,7 @@
     color: #fff;
     font-weight: 200;
     font-size: 1.5rem;
-    line-height: 1.6;
+    line-height: 1.2;
     opacity: 0.5;
   }
   .sub-heading {
@@ -98,11 +98,11 @@
     a {
       margin-left: .6rem;
       font-size: 1.8rem;
-      color: #6e6779;
+      color: #898395;
       text-decoration: none;
 
       &:hover {
-        color: #898395;
+        color: #6e6779;
       }
     }
   }
