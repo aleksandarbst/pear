@@ -9,7 +9,6 @@
           <a target="_blank" rel="noopener noreffer" href="https://dribbble.com/aleksbatista"><i class="fab fa-dribbble"></i></a>
           <a target="_blank" rel="noopener noreffer" href="https://twitter.com/baffledbatista"><i class="fab fa-twitter"></i></a>
           <a target="_blank" rel="noopener noreffer" href="https://medium.com/@aleksbatista"><i class="fab fa-medium-m"></i></a>
-
         </div>
         <p class="sub-main" style="margin-bottom: 100px;">
           — and over the past years I have grown quite familiar with the twitch community, and the environment of streamers and viewers. Through my designs, I aim to create a closer connection between said viewers and the channel broadcasters. I believe that each channel is unique, and deserves to show off exactly how special and great it is. My goal is to create and curate viable branding for any broadcaster, no matter big or small.
@@ -48,7 +47,7 @@
     </div>
 
     <div class="contact">
-      In need of a designer? Get in touch. 📧
+      Get in touch with me to talk prices
       <a class="link-underline" href="mailto:aleksbatista@icloud.com">
         aleksbatista@icloud.com
       </a>
@@ -69,60 +68,7 @@
 </script>
 
 <style lang="scss" scoped>
-  .uk-container {
-    position: relative;
-  }
-  h1 {
-    margin-top: 10rem;
-    margin-bottom: 3rem;
-    line-height: 0.8;
-    font-size: 3rem;
-    text-align: center;
-    color: #ffffff;
-  }
-  h2 {
-    color: #dad8de;
-  }
-  .sub-main {
-    color: #fff;
-    font-weight: 200;
-    font-size: 1.5rem;
-    line-height: 1.2;
-    opacity: 0.5;
-  }
-  .sub-heading {
-    color: #898395;
-    font-size: 1.3rem;
-  }
   .social-menu {
-    a {
-      margin-left: .6rem;
-      font-size: 1.8rem;
-      color: #898395;
-      text-decoration: none;
-
-      &:hover {
-        color: #6e6779;
-      }
-    }
-  }
-  img {
-    border-radius: 9px;
-    box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
-  }
-  .work-pieces img {
-    height: 100%;
-    transition: filter 200ms;
-    filter: grayscale(100%);
-
-    &:hover {
-      filter: grayscale(0%);
-    }
-  }
-  .contact {
-    margin-top: 300px;
-    margin-bottom: 250px;
-    font-size: 3rem;
-    text-align: center;
+    margin: 30px 0 60px;
   }
 </style>
